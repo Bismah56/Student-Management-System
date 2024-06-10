@@ -1,6 +1,6 @@
 {
   "name": "bis56-student_management-system",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a Console based Student Management System.",
   "main": "index.js",
   "type": "module",
