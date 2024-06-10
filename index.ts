@@ -38,12 +38,12 @@ class StudentsInfo {
     }
 
     showStatus(){
-        console.log("\n"+"₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚");
+        console.log("\n"+"-".repeat(37));
         console.log(chalk.yellowBright(`ID: ${chalk.rgb(170, 22, 100)(this.ID)}`));
         console.log(chalk.yellowBright(`Name: ${chalk.greenBright(this.name)}`));
         console.log(chalk.yellowBright(`Courses: ${chalk.blueBright(this.courses)}`));
         console.log(chalk.yellowBright("Balance:"),chalk.greenBright(`$${this.balance}/-`));
-        console.log("₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚");
+        console.log("-".repeat(37));
     }
 };
 
