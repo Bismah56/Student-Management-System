@@ -4,7 +4,7 @@ import chalk from "chalk";
 //Implementing the Object Oriented Programming concepts
 // Creating a class for students Information
 class StudentsInfo {
-    static IDcounter = 100000; //for generating a unique five digit student-ID
+    static IDcounter = 10000; //for generating a unique five digit student-ID
     ID;
     name;
     courses;
@@ -32,12 +32,12 @@ class StudentsInfo {
         ;
     }
     showStatus() {
-        console.log("\n" + "₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚");
+        console.log("\n" + "-".repeat(37));
         console.log(chalk.yellowBright(`ID: ${chalk.rgb(170, 22, 100)(this.ID)}`));
         console.log(chalk.yellowBright(`Name: ${chalk.greenBright(this.name)}`));
         console.log(chalk.yellowBright(`Courses: ${chalk.blueBright(this.courses)}`));
         console.log(chalk.yellowBright("Balance:"), chalk.greenBright(`$${this.balance}/-`));
-        console.log("₊˚ ✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚");
+        console.log("-".repeat(37));
     }
 }
 ;
