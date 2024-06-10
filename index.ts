@@ -7,7 +7,7 @@ import chalk from "chalk";
 
 // Creating a class for students Information
 class StudentsInfo {
-    static IDcounter = 100000;    //for generating a unique five digit student-ID
+    static IDcounter = 10000;    //for generating a unique five digit student-ID
     ID : number;
     name : string;
     courses : string[];
