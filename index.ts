@@ -128,7 +128,7 @@ async function Main() {
         let Options = await inquirer.prompt({
             type : "list",
             name : "available",
-            message : chalk.rgb(234, 190, 108)("Choose an Option:"),
+            message : chalk.rgb(234, 190, 108)("Choose an Option from below:"),
             choices : [
                 "Add Student",
                 "Enroll Student",
